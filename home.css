@@ -1,0 +1,33 @@
+.first
+{
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  font-size: larger;
+}
+.banner
+{
+  padding:0;
+  width: 100%;
+}
+
+body
+{
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  animation-name: reveal;
+  animation-duration: 3s;
+}
+
+.libraries a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 130%;
+}
+
+@keyframes reveal
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
